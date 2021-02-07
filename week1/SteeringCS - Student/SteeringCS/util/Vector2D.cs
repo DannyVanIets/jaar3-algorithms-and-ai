@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace SteeringCS
 {
-   
+
     public class Vector2D
     {
         public double X { get; set; }
         public double Y { get; set; }
 
-        public Vector2D() : this(0,0)
+        public Vector2D() : this(0, 0)
         {
             X = 0;
             Y = 0;
@@ -88,12 +88,12 @@ namespace SteeringCS
             }
             return this;
         }
-        
+
         public Vector2D Clone()
         {
             return new Vector2D(this.X, this.Y);
         }
-        
+
         public override string ToString()
         {
             return String.Format("({0},{1})", X, Y);

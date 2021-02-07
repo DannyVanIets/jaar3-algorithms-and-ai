@@ -31,8 +31,8 @@ namespace SteeringCS
 
         private void Timer_Elapsed(object sender, System.Timers.ElapsedEventArgs e)
         {
-            world.Update(timeDelta);
-            dbPanel1.Invalidate();
+            this.world.Update(timeDelta);
+            this.dbPanel1.Invalidate();
         }
 
         private void dbPanel1_Paint(object sender, PaintEventArgs e)

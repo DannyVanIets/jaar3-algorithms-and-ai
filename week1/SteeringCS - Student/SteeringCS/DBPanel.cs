@@ -13,7 +13,5 @@ namespace SteeringCS
         {
            this.DoubleBuffered = true;
         }
-        
     }
 }
-
